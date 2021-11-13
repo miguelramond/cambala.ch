@@ -1,0 +1,8 @@
+## Hide all pdf files
+*.pdf
+
+## Hide macos ds_store
+.DS_Store
+
+## hide all word files
+*.docx
