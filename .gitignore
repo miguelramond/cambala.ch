@@ -8,4 +8,4 @@
 *.docx
 
 ## Hide concept directory
-./concepts/**
+concepts/
