@@ -6,3 +6,6 @@
 
 ## hide all word files
 *.docx
+
+## Hide concept directory
+./concepts/**
