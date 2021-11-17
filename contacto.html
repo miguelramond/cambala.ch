@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>cambala.ch</title>
+    <title>cambala.ch · Contacto</title>
     <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon.jpg"/>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,68 +9,67 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    <!-- Local CSS File-->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
   </head>
-  <body id="contacto" style="background-color: silver; font-family: monospace;">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(26, 146, 56, 0.925); color: white;">
-      <img src="./assets/img/index2.png" width="32" height="40" alt="avatar" style="margin-right: 0.5vw;"><a class="navbar-brand" href="#">cambala.ch</a>
+  <body id="contacto">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img id="logo" src="./assets/img/index2.png" alt="avatar"><a class="navbar-brand" href="./index.html">cambala.ch</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./bazaar.html">Mercado</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Qué somos</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./nosotros.html">Qué Queremos</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link" href="./contacto.html">Contacto<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-        <a class="btn btn-primary" href="#" role="button" style="margin-right: 25vw;" onclick="colorize()"> ---> Click here <--- </a>
-        <a class="btn btn-primary" href="#" role="button"> <img src="./assets/img/avatar.png" width="30" height="30" alt="avatar" style="border-radius: 5px;"> Login</a>
-      </div>
+        <a id="publish" class="btn btn-primary" href="./publicar.html" role="button" onclick="colorize()"> Publicar </a>
+        <a id="login" class="btn btn-primary" href="#" role="button"> <img class="avatar" src="./assets/img/avatar.png" alt="avatar"> Login</a>
+    </div>
   </nav>
   <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12" style="margin: 4vh 0vw 1vh 0vh; text-align: center;">
-                    <h2 style="font-size: 2vw;">Cuentanos de ti! Cualquier cosa, todo es valioso:</h2>
+                <div class="col-12">
+                    <h2>¿Buscas algo?</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-6 text-center">
-                    <form>
+                    <form action="./thanks.html">
                         <div class="form-group">
-                          <input type="termino" class="form-control" id="exampleInputName" aria-describedby="NameHelp" placeholder="Nombre">
+                          <input type="text" class="form-control" id="InputName" placeholder="Nombre" required>
                         </div>
                         <div class="form-group">
-                          <input type="especialidad" class="form-control" id="exampleInputEmail" placeholder="Correo Electrónico">
+                          <input type="text" class="form-control" id="InputEmail" placeholder="Correo Electrónico" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
-                          </div>
-                        <div class="form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Buscar fuera de mi ciudad</label>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="Mensaje" required></textarea>
                         </div>
-                        <a href="./thanks.html" type="submit" class="btn btn-primary" style="margin-top: 1vw;">Submit</a>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
                     </form>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12" style="text-align: center; color: gray; margin-top: 2vw; font-size: 1.5vw;">
-                    <p>Miguel Ramón - Basecamp Awakelab Nov. 2021 - Contacto: miguelramond@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-12">
+                  <p>Miguel Ramón - Basecamp Awakelab Nov. 2021 - Contacto: miguelramond@gmail.com</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

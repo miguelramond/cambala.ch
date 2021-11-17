@@ -1,0 +1,58 @@
+body {
+    background-color: silver;
+    font-family: monospace;
+}
+nav {
+    background-color: rgba(26, 146, 56, 0.925); 
+    color: white;
+}
+#logo {
+    margin-right: 0.5vw;
+    width: 32px;
+    height: 40px;
+}
+#publish {
+    margin-right: 35vw;
+}
+img.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px; 
+}
+#sidebar {
+    background-color: whitesmoke; 
+    margin: 1vh 0vh 1vh 0vh; 
+    padding-top: 1vw;
+}
+#sidebarsubmit {
+    margin-top: 1vw;
+}
+p.disclaim {
+    font-size: 1vw;
+}
+header {
+    margin: 1vh 0vw 1vh 0vh; 
+    text-align: center;
+}
+h1 {
+    font-size: 4vw;
+}
+article.intro {
+    text-align: center; 
+    font-size: 1.5vw;
+}
+h2 {
+    text-align: center;
+    margin: 4vh 0vw 2vh 0vh;
+    font-size: 2vw;
+}
+p {
+    text-align: center;
+    font-size: 1.5vw;
+}
+footer {
+    text-align: center; 
+    color: gray; 
+    margin-top: 1vw; 
+    font-size: 1.5vw;
+}
