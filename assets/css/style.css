@@ -27,6 +27,9 @@ img.avatar {
 #sidebarsubmit {
     margin-top: 1vw;
 }
+label.error {
+    color: red;
+}
 p.disclaim {
     font-size: 1vw;
 }
