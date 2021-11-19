@@ -11,13 +11,15 @@ body {
 
 /* Wrapper with padding */
 .wrap  {
-    height: 300px;
-    padding: 5%;
+    height: 65vh;
+    padding-top: 3%;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 5%;
 }
 
 #tinderslide {
     position: relative;
-    background: #fff;
     width: 95%;
     height: 100%;
 }
@@ -31,8 +33,9 @@ body {
 
 #tinderslide li {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 75vw;
+    /* Changed height to vh for better responsiveness */
+    height: 55vh;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -94,7 +97,7 @@ body {
     height: 80px;
     position: absolute;
     width: 170px;
-    left: 45px;
+    left: 80px;
     top:40px;
     z-index: 1;
     overflow: hidden;
@@ -116,8 +119,9 @@ body {
 /* Image container */
 #tinderslide .img {
     height: 90%;
-    width: 100%;
+    width: 50%;
     margin-bottom: 5px;
+    margin: auto;
     position: relative;
     -webkit-transform: translate3d(0%,0,0) scale3d(1,1,1);
     -moz-transform: translate3d(0%,0,0) scale3d(1,1,1);
@@ -134,7 +138,8 @@ body {
 /* Action - buttons */
 .actions {
     text-align: center;
-    width: 304px;
+    /* Width changed to vw for better responsiveness */
+    width: 25vw;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -160,7 +165,7 @@ body {
 }
 
 .actions a {
-    float: left;
+    float: none;
     display: block;
     background-color: #f7f7f7;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
@@ -169,7 +174,8 @@ body {
     background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7);
     background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7);
     color: #a7a7a7;
-    margin: 36px;
+    /* Add margin to center button */
+    margin-left: 10vw;
     width: 80px;
     height: 80px;
     position: relative;
@@ -187,6 +193,30 @@ body {
 }
 
 /* jTinder images */
+#tinderslide .pane11 .img {
+    background: url("../img/pane/pane11.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane10 .img {
+    background: url("../img/pane/pane10.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane9 .img {
+    background: url("../img/pane/pane9.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane8 .img {
+    background: url("../img/pane/pane8.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane7 .img {
+    background: url("../img/pane/pane7.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+#tinderslide .pane6 .img {
+    background: url("../img/pane/pane6.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
 #tinderslide .pane5 .img {
     background: url("../img/pane/pane5.jpg") no-repeat scroll center center;
     background-size: cover;
