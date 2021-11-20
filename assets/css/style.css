@@ -42,6 +42,7 @@ header {
 }
 h1 {
     font-size: 4vw;
+    color: hsl(0, 1%, 21%);
 }
 article.intro {
     text-align: center; 
@@ -49,7 +50,7 @@ article.intro {
 }
 h2 {
     text-align: center;
-    margin: 4vh 0vw 2vh 0vh;
+    margin: 1vh 0vw 1vh 0vh;
     font-size: 2vw;
 }
 p {
@@ -61,4 +62,22 @@ footer {
     color: gray; 
     margin-top: 1vw; 
     font-size: 1.5vw;
+}
+.needs-validation { 
+    margin: 1vw 5vw 0vw 5vw;
+}
+.card {
+    width: 18rem;
+    margin: 1vh 1vw 0vh 1vw;
+}
+.card .card-img-top {
+    background-size: contain;
+    margin-top: 1.5vh;
+}
+#novedades {
+    text-align: center;
+    font-size: 2vw;
+}
+#intro {
+    margin-top: 2vh;
 }
