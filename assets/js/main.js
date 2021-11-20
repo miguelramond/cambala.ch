@@ -36,7 +36,7 @@ var i = 0;
 var j = 0;
 var k = 0;
 // The text
-var txt = "fortuito.";
+var txt = "fortuitos.";
 // Debug feature
 console.log(txt);
 // The speed/duration of the effect in milliseconds
