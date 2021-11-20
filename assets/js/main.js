@@ -52,6 +52,7 @@ window.onload = function typeWriter() {
     setTimeout(typeWriter, speed);
     }
 
+    // Doesn't work, fix later ()
     if (j < 5 && i == txt.length) {
         if (k == 0) {
         document.getElementById("demo").innerHTML += space;
