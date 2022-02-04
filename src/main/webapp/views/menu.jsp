@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="CrearCapacitacion">Crear Capacitaciones</a>
+              <a class="nav-link" href="#">Mercado</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Qué somos</a>
@@ -18,7 +18,7 @@
                 <a class="nav-link" href="Contacto">Contacto</a>
             </li>
           </ul>
-          <a id="publish" class="btn btn-primary" href="#" role="button"> Publicar </a>
+          <a id="publish" class="btn btn-primary" href="CrearCapacitacion" role="button"> Publicar </a>
           <a id="login" class="btn btn-primary" href="Login" role="button"> <img class="avatar" src="./assets/img/avatar.png" alt="avatar"> Login</a>
         </div>
  </nav>

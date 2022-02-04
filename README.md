@@ -5,21 +5,20 @@
 # cambala.ch
 
 # Change Log
-Cambios al día Martes 16 de Noviembre de 2021
- 
-Proyecto: (https://miguelramond.github.io/cambala.ch/)
+Cambios al día Viernes 28 de Noviembre de 2022
+
 Repositorio: (https://github.com/miguelramond/cambala.ch)
 
-De: Miguel Ramón
- 
-## [0.2.0] - 2021-11-13
- 
-Se agrega funcionalidad jQuery para página de "Publicar producto"
- 
+Autor: Miguel Ramón
+
+## [0.2.0] - 2022-01-28
+
+// TODO: Agregar
+
 ### Added
-- Formulario de publicación de productos
- 
+- // TODO: Agregar
+
 ### Changed
- 
+
 ### Fixed
-- Cambios menores en semántica e indentación
+- // TODO: Agregar

@@ -5,11 +5,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Andres Solís | Miguel Ramón | Patricio Pinto - 
-                    <a id="github" href="https://github.com/miguelramond/grupal_java_asesorias">Github</a>
-                    - <a id="logout" href="Logout">Cerrar Sesión</a>
-                    </p>
-                    
+                    <p>Miguel Ramón - Basecamp Awakelab Nov. 2021 - Contacto: miguelramond@gmail.com</p>
                 </div>
             </div>
         </div>
