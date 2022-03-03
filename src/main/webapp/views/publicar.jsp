@@ -14,6 +14,13 @@
 <body id="publica">
 
 	<%@ include file="./commons/menu.jsp"%>
+	
+	<%
+	String errorsize = (String) request.getAttribute("errorsize");
+	if (errorsize != null && errorsize.equals("true")) {
+		out.println("<h3 class='alert alert-danger'> El archivo que estás subiendo excede los 20MB. </h3>");
+	}
+	%>
 
 	<main>
 		<form:form method="POST" class="needs-validation" action="${pageContext.request.contextPath}/publicar"
@@ -26,7 +33,7 @@
 						id="validationCustom01" placeholder="Ej: Radio vintage a baterías"
 						required="required" />
 					<div class="valid-feedback">Excelente!</div>
-					<div class="invalid-feedback">Importante decirnos que estas
+					<div class="invalid-feedback">Importante decirnos que estás
 						cambiando</div>
 				</div>
 			</div>

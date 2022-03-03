@@ -18,6 +18,8 @@
 			access="hasAnyAuthority('1')" />
 		<intercept-url pattern="/publicar"
 			access="hasAnyAuthority('1', '2')" />
+		<intercept-url pattern="/panelusuario"
+			access="hasAnyAuthority('1', '2')" />
 
 		<intercept-url pattern="/api/*"
 			access="hasAnyAuthority('1', '2')" />
