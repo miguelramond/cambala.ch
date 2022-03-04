@@ -56,7 +56,7 @@ public class CrearUsuarioController {
     	
     	us.create(u);
     	
-        return new ModelAndView("publicar", "cosas", new Cosas());
+        return new ModelAndView("login");
     }
 
 }

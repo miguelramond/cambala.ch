@@ -32,7 +32,7 @@ By: Miguel Ramón
  
 ## [1.0.0] - 2022-03-03
  
-First stable version of proyect.
+First stable version of project.
  
 ### Added
 - Integration of HTML frontend into Spring-MVC project with Java backend
@@ -45,8 +45,11 @@ First stable version of proyect.
 - User panel displaying current items in marketplace
  
 ### Changed
- - Modified Marketplace Carrousel to properly display items stored in DB
- - Creation of '/commons' folder in views to store recurring elements in JSP (Such as header 	      	declarations, navbar and footers)
+ - Creation of '/commons' folder in views to store recurring elements 
+ in JSP (Such as header declarations, navbar and footers)
+ - Image display via database select queries instead of local storage
  
 ### Fixed
 - Minor changes in syntax and indentation
+- Fixes in navbar redirects in order to properly handle second level 
+(i.e: home/market/thing)

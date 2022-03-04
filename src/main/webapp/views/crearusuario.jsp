@@ -16,7 +16,7 @@
 	<%@ include file="./commons/menu.jsp"%>
 
 	<h2 style="text-align: center; padding: 1vw 0vw 1vw 0vw;">
-		<b>Actualizar un Usuario</b>
+		<b>Registro de Usuario</b>
 	</h2>
 
 	<form:form method="POST" class="needs-validation"
@@ -32,7 +32,7 @@
 			</div>
 			<div class="col-md-4 mb-3">
 				<form:label for="validationCustom03" path="psw">Contraseña</form:label>
-				<form:input type="text" class="form-control" id="validationCustom03"
+				<form:input type="password" class="form-control" id="validationCustom03"
 					placeholder="Elige una contraseña." path="psw"
 					required="required" />
 				<div class="invalid-feedback">¡Este campo es obligatorio!</div>
@@ -78,7 +78,7 @@
 
 
 		<div class="form-row justify-content-center mt-1">
-			<button class="btn btn-primary col-md-2" type="submit">Actualizar</button>
+			<button class="btn btn-primary col-md-2" type="submit">Registrarse</button>
 		</div>
 
 	</form:form>
