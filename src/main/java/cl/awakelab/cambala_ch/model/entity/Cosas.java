@@ -3,6 +3,7 @@ package cl.awakelab.cambala_ch.model.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 
 @Entity
@@ -18,6 +19,8 @@ public class Cosas {
 	private String region;
 	private String comuna;
 	private String file_name;
+	@Lob
+	@Column(name="file_data")
 	private byte[] file_data;
 
 	public Cosas(long idcosa, String nombre, String descripcion, long idusuario, String region, String comuna,
@@ -105,11 +108,10 @@ public class Cosas {
 		this.file_name = file_name;
 	}
 	
-	@Column(name="file_data")
 	public byte[] getFile_data() {
 		return file_data;
 	}
-
+	
 	public void setFile_data(byte[] file_data) {
 		this.file_data = file_data;
 	}

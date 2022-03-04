@@ -39,7 +39,9 @@
 				<a class="dropdown-item" href="./logout">Logout</a>
 				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="./admin">Admin</a>
 				</sec:authorize>
-				<sec:authorize access="hasAuthority('1', '2')"> <a class="dropdown-item" href="./panelusuario">Admin</a>
+				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="./panelusuario">Panel Usuario</a>
+				</sec:authorize>
+				<sec:authorize access="hasAuthority('2')"> <a class="dropdown-item" href="./panelusuario">Panel Usuario</a>
 				</sec:authorize>
 			</div>
 		</div>

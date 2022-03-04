@@ -28,9 +28,7 @@
 				<tr>
 					<th>ID Cosa</th>
 					<th>Nombre</th>
-					<th>ID Usuario</th>
-					<th>Region</th>
-					<th>Comuna</th>
+					<th>Foto</th>
 					<th>Opciones</th>
 				</tr>
 			</thead>
@@ -50,9 +48,7 @@
 							
 						<td><core:out value="${idcosaint}"></core:out></td>
 						<td><core:out value="${c.getNombre()}"></core:out></td>
-						<td><core:out value="${idusuarioint}"></core:out></td>
-						<td><core:out value="${c.getRegion()}"></core:out></td>
-						<td><core:out value="${c.getComuna()}"></core:out></td>
+						<td><img width="100" height="100" src="foto/<core:out value='${idcosaint}'/>"></td>
 						<td><a href="Actualizar?id=${idcosaint}"><button
 									class="btn btn-primary" type="submit" disabled>
 									Actualizar</button></a></td>
