@@ -24,6 +24,12 @@
 			access="hasAnyAuthority('1', '2')" />
 		<intercept-url pattern="/panelusuario"
 			access="hasAnyAuthority('1', '2')" />
+		<intercept-url pattern="/vercosa/*"
+			access="hasAnyAuthority('1', '2')" />
+		<intercept-url pattern="/editarcosa/*"
+			access="hasAnyAuthority('1', '2')" />
+		<intercept-url pattern="/eliminarcosa/*"
+			access="hasAnyAuthority('1', '2')" />
 
 		<intercept-url pattern="/api/*"
 			access="hasAnyAuthority('1', '2')" />

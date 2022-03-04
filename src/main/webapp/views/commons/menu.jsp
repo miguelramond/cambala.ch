@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <nav class="navbar navbar-expand-lg navbar-light">
 	<img id="logo" src="<core:url value="/res/img/index2.png"/>" alt="avatar"><a
-		class="navbar-brand" href="./">cambala.ch</a>
+		class="navbar-brand" href="${pageContext.request.contextPath}/">cambala.ch</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent"
 		aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -36,13 +36,13 @@
 				<span class="sr-only">Toggle Dropdown</span>
 			</button>
 			<div class="dropdown-menu">
-				<a class="dropdown-item" href="./logout">Logout</a>
-				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/admin">Admin</a>
-				</sec:authorize>
 				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/panelusuario">Panel Usuario</a>
 				</sec:authorize>
 				<sec:authorize access="hasAuthority('2')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/panelusuario">Panel Usuario</a>
 				</sec:authorize>
+				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/admin">Admin</a>
+				</sec:authorize>
+				<a class="dropdown-item" href="${pageContext.request.contextPath}/logout">Logout</a>
 			</div>
 		</div>
 	</div>

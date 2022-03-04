@@ -30,7 +30,7 @@
 			</header>
 			<div class="row justify-content-center">
 				<div class="card col-sm-2">
-					<a href="#"> <img class="card-img-top"
+					<a href="${pageContext.request.contextPath}/vercosa/1"> <img class="card-img-top"
 						src="<core:url value="/res/img/pane/pane1.jpg"/>"
 						alt="Card image cap">
 						<div class="card-body">
@@ -39,7 +39,7 @@
 					</a>
 				</div>
 				<div class="card col-sm-2">
-					<a href="#"> <img class="card-img-top"
+					<a href="${pageContext.request.contextPath}/vercosa/30"> <img class="card-img-top"
 						src="<core:url value="/res/img/pane/pane2.jpg"/>"
 						alt="Card image cap">
 						<div class="card-body">
@@ -48,7 +48,7 @@
 					</a>
 				</div>
 				<div class="card col-sm-2">
-					<a href="#"> <img class="card-img-top"
+					<a href="${pageContext.request.contextPath}/vercosa/31"> <img class="card-img-top"
 						src="<core:url value="/res/img/pane/pane3.jpg"/>"
 						alt="Card image cap">
 						<div class="card-body">
@@ -57,7 +57,7 @@
 					</a>
 				</div>
 				<div class="card col-sm-2">
-					<a href="#"> <img class="card-img-top"
+					<a href="${pageContext.request.contextPath}/vercosa/3"> <img class="card-img-top"
 						src="<core:url value="/res/img/pane/pane4.jpg"/>"
 						alt="Card image cap">
 						<div class="card-body">
@@ -66,7 +66,7 @@
 					</a>
 				</div>
 				<div class="card col-sm-2">
-					<a href="#"> <img class="card-img-top"
+					<a href="${pageContext.request.contextPath}/vercosa/2"> <img class="card-img-top"
 						src="<core:url value="/res/img/pane/pane5.jpg"/>"
 						alt="Card image cap">
 						<div class="card-body">

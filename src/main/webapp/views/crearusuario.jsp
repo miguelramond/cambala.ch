@@ -6,7 +6,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>cambala.ch · Usuario</title>
+<title>cambala.ch · Usuario++</title>
 
 <%@ include file="./commons/head.jsp"%>
 

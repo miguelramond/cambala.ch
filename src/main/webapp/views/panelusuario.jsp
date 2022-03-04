@@ -50,7 +50,7 @@
 							
 						<td><core:out value="${idcosaint}"></core:out></td>
 						<td><core:out value="${c.getNombre()}"></core:out></td>
-						<td><img width="100" height="100" src="foto/<core:out value='${idcosaint}'/>"></td>
+						<td><img width="100" height="100" src="${pageContext.request.contextPath}/foto/<core:out value='${idcosaint}'/>"></td>
 						<td><a href="${pageContext.request.contextPath}/vercosa/<core:out value='${idcosaint}'/>"><button
 									class="btn btn-primary" type="submit" >
 									<i class="fa fa-eye"></i></button></a>
