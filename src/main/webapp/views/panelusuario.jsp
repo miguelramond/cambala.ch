@@ -10,6 +10,8 @@
 
 <%@ include file="./commons/head.jsp"%>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body id="listarcosas">
 
@@ -29,7 +31,7 @@
 					<th>ID Cosa</th>
 					<th>Nombre</th>
 					<th>Foto</th>
-					<th>Opciones</th>
+					<th>Ver Edit. Borrar</th>
 				</tr>
 			</thead>
 
@@ -49,9 +51,16 @@
 						<td><core:out value="${idcosaint}"></core:out></td>
 						<td><core:out value="${c.getNombre()}"></core:out></td>
 						<td><img width="100" height="100" src="foto/<core:out value='${idcosaint}'/>"></td>
-						<td><a href="Actualizar?id=${idcosaint}"><button
-									class="btn btn-primary" type="submit" disabled>
-									Actualizar</button></a></td>
+						<td><a href="${pageContext.request.contextPath}/vercosa/<core:out value='${idcosaint}'/>"><button
+									class="btn btn-primary" type="submit" >
+									<i class="fa fa-eye"></i></button></a>
+						<a href="${pageContext.request.contextPath}/editarcosa/<core:out value='${idcosaint}'/>"><button
+									class="btn btn-success" type="submit" >
+									<i class="fa fa-edit"></i></button></a>
+						<a href="${pageContext.request.contextPath}/eliminarcosa/<core:out value='${idcosaint}'/>"><button
+									class="btn btn-danger" type="submit" >
+									<i class="fa fa-trash"></i></button></a>
+						</td>	
 					</tr>
 				</core:forEach>
 			</tbody>

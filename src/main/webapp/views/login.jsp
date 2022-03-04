@@ -41,7 +41,15 @@
 		<button class="btn btn-lg btn-primary btn-block"
 			style="margin-top: 1vw;" type="submit">Ingresar</button>
 
+
 	</form>
+
+
+	<div style="padding-top: 1vw; max-width: 330px; margin: 0 auto;"
+		class="container">
+		<span class="crear">No tienes usuario? <a href="./crearusuario">Crea
+				uno.</a></span>
+	</div>
 
 
 	<%@ include file="./commons/footer.jsp"%>

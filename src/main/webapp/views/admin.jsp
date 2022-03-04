@@ -21,11 +21,11 @@
 		</div>
 	</div>
 	<div class="row justify-content-center mt-1">
-			<a id="listarcosas" class="btn btn-primary" href="./listarcosas" role="button">Listar
+			<a id="listarcosas" class="btn btn-primary" href="${pageContext.request.contextPath}/listarcosas" role="button">Listar
 				Cosas</a>
 	</div>
 	<div class="row justify-content-center mt-1">
-			<a id="listarusuarios" class="btn btn-primary" href="./listarusuario" role="button">Listar
+			<a id="listarusuarios" class="btn btn-primary" href="${pageContext.request.contextPath}/listarusuario" role="button">Listar
 				Usuarios</a>
 	</div>
 	<%@ include file="./commons/footer.jsp"%>

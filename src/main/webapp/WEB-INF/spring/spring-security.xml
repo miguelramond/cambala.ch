@@ -16,6 +16,10 @@
 			access="hasAnyAuthority('1')" />
 		<intercept-url pattern="/listarusuario"
 			access="hasAnyAuthority('1')" />
+		<intercept-url pattern="/actualizarusuario/*"
+			access="hasAnyAuthority('1')" />
+		<intercept-url pattern="/eliminarusuario/*"
+			access="hasAnyAuthority('1')" />
 		<intercept-url pattern="/publicar"
 			access="hasAnyAuthority('1', '2')" />
 		<intercept-url pattern="/panelusuario"

@@ -26,14 +26,14 @@ public class Usuario {
 	/* Uso de etiqueta @Temporal para convertir registro almacenado 
 	en DB como DATETIME a String para muestra en vista */
 	
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date fechacreacion;
+	//@Temporal(TemporalType.TIMESTAMP)
+	// private Date fechacreacion;
 	
 	private int tipousuario;
 	
 	
 	public Usuario(long idusuario, String uname, String psw, String email, String tlf, String run, String direccion,
-			String comuna, Date fechacreacion, int tipousuario) {
+			String comuna, /* Date fechacreacion ,*/ int tipousuario) {
 		super();
 		this.idusuario = idusuario;
 		this.uname = uname;
@@ -43,7 +43,7 @@ public class Usuario {
 		this.run = run;
 		this.direccion = direccion;
 		this.comuna = comuna;
-		this.fechacreacion = fechacreacion;
+		//this.fechacreacion = fechacreacion;
 		this.tipousuario = tipousuario;
 	}
 
@@ -115,13 +115,13 @@ public class Usuario {
 		this.comuna = comuna;
 	}
 
-	public Date getFechacreacion() {
+	/* public Date getFechacreacion() {
 		return fechacreacion;
 	}
 
 	public void setFechacreacion(Date fechacreacion) {
 		this.fechacreacion = fechacreacion;
-	}
+	} */
 
 	public int getTipousuario() {
 		return tipousuario;
@@ -135,7 +135,7 @@ public class Usuario {
 	public String toString() {
 		return "Usuario [idusuario=" + idusuario + ", uname=" + uname + ", psw=" + psw + ", email=" + email + ", tlf="
 				+ tlf + ", run=" + run + ", direccion=" + direccion + ", comuna=" + comuna + ", fechacreacion="
-				+ fechacreacion + ", tipousuario=" + tipousuario + "]";
+				+ /*fechacreacion +*/ ", tipousuario=" + tipousuario + "]";
 	}	
 	
 }

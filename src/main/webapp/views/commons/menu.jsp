@@ -17,17 +17,17 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item"><a class="nav-link" href="./mercado">Mercado</a></li>
-			<li class="nav-item"><a class="nav-link" href="./nosotros">Qué somos</a>
+			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/mercado">Mercado</a></li>
+			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/nosotros">Qué somos</a>
 			</li>
-			<li class="nav-item"><a class="nav-link" href="./contacto">Contacto</a>
+			<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/contacto">Contacto</a>
 			</li>
 		</ul>
-		<a id="publish" class="btn btn-primary" href="./publicar" role="button">
+		<a id="publish" class="btn btn-primary" href="${pageContext.request.contextPath}/publicar" role="button">
 			Publicar </a> 
 
 		<div class="btn-group">
-			<a id="login" class="btn btn-primary" href="./login" role="button"><img
+			<a id="login" class="btn btn-primary" href="${pageContext.request.contextPath}/login" role="button"><img
 				class="avatar" src="<core:url value="/res/img/avatar.png"/>"
 				alt="avatar"> Login </a>
 			<button type="button"
@@ -37,11 +37,11 @@
 			</button>
 			<div class="dropdown-menu">
 				<a class="dropdown-item" href="./logout">Logout</a>
-				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="./admin">Admin</a>
+				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/admin">Admin</a>
 				</sec:authorize>
-				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="./panelusuario">Panel Usuario</a>
+				<sec:authorize access="hasAuthority('1')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/panelusuario">Panel Usuario</a>
 				</sec:authorize>
-				<sec:authorize access="hasAuthority('2')"> <a class="dropdown-item" href="./panelusuario">Panel Usuario</a>
+				<sec:authorize access="hasAuthority('2')"> <a class="dropdown-item" href="${pageContext.request.contextPath}/panelusuario">Panel Usuario</a>
 				</sec:authorize>
 			</div>
 		</div>

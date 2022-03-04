@@ -3,6 +3,8 @@ package cl.awakelab.cambala_ch.model.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
 
@@ -16,5 +18,10 @@ public class ProjectConfiguration {
 	    multipartResolver.setMaxInMemorySize(1048576);  // 1MB
 	    return multipartResolver;
 	}
+	
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
 	
 }

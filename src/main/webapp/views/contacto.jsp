@@ -24,7 +24,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-6 text-center">
-					<form action="./thanks.html">
+					<form action="#">
 						<div class="form-group">
 							<input type="text" class="form-control" id="InputName"
 								placeholder="Nombre" required>
